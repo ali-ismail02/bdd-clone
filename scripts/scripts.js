@@ -1,8 +1,8 @@
 // Dropdown NAV BAR fns
-var dropdown1 = document.getElementById("dropdown-1")
-var dropdownContent1 = document.getElementById("dropdown-content-1")
-var dropdown2 = document.getElementById("dropdown-2")
-var dropdownContent2 = document.getElementById("dropdown-content-2")
+const dropdown1 = document.getElementById("dropdown-1")
+const dropdownContent1 = document.getElementById("dropdown-content-1")
+const dropdown2 = document.getElementById("dropdown-2")
+const dropdownContent2 = document.getElementById("dropdown-content-2")
 
 dropdown1.addEventListener("click", function() {
     dropdownContent1.classList.add("dropdown-active")
@@ -22,3 +22,30 @@ dropdown2.addEventListener("click", function() {
         dropdownContent2.classList.remove("dropdown-active")
     })
 })
+
+// hero image
+
+// const hero = document.getElementById("hero")
+// let i =1 ,j=1
+
+// function delay(milliseconds){
+//     return new Promise(resolve => {
+//         setTimeout(resolve, milliseconds);
+//     });
+// }
+
+// async function heroImage(){
+//     while(true){
+//         for(; i < 11 ; i++){
+//             hero.classList.replace("image" + j , "image" + (i+1))
+//             await delay(2000);
+//             console.log(j + " " +(i+1))
+//             j=i+1
+//         }
+//         j=11
+//         i=0
+//     }
+// }
+
+// heroImage()
+
