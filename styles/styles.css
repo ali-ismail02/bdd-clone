@@ -144,7 +144,26 @@
     width: 200px;
     flex-grow: 1;
     margin: 20px 20px;
+    box-shadow: 0px 4px 15px 0px rgb(0 0 0 / 6%);
   }
+
+  .hover5:hover{
+    background-color:rgba(255,56,112,.1);;
+  }
+
+  .hover4:hover{
+        background-color:rgba(161,183,0,.1);
+  }
+  .hover3:hover{
+        background-color:rgba(0,128,45,.1);
+   }
+
+  .hover2:hover{
+        background-color:rgba(0,148,158,.1);
+   }
+   .hover1:hover{
+           background-color:rgba(0,120,190,.1);
+   }
 
   .foundation-item > h5{
     margin-top: 1rem!important;
@@ -265,9 +284,17 @@
     background-position: center left;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 0.3rem;
+    box-shadow: 0px 4px 15px 0px rgb(0 0 0 / 6%);
+    transition: all 200ms linear;
   }
 
-  .joinBDD-item > h5 {
+  .joinBDD-item:hover {
+    box-shadow: 0px 6px 32px 0px rgb(0 0 0 / 13%);
+    transform: translateY(-5px);
+  }
+
+  .joinBDD-item h5 {
     margin-top: 1rem!important;
     color: rgb(33, 33, 33);
     font-weight: 700;
@@ -283,6 +310,8 @@
     color: rgb(100,100,100);
     font-size: 16px;
     line-height: 24px;
+    font-weight: 520;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .joinBDD-Column > h6 {
@@ -662,6 +691,15 @@
   color: rgb(249,249,249);
   line-height:30px;
 }
+.txt-underline:hover{
+  transition: all 200ms linear;
+  text-decoration: rgb(0,120,190) underline 2px;
+  text-underline-offset: 7px;
+}
+.img-border:hover {
+  border-bottom: solid rgb(0,120,190) 2px;
+  transition: all 200ms linear;
+}
 
 .footer >div > ul > li >p {
   color: rgb(100,100,100);
@@ -673,7 +711,7 @@
 }
 
 .li-icon{
-  color:rgb(0,120,190);
+  color:#0078BE;
 }
 
 .footer > div >ul{
@@ -715,6 +753,8 @@
 
 .store-img {
   width: 100%;
+  padding-bottom: 7px;
+  cursor: pointer;
 }
   
   /* Utilities */
@@ -725,14 +765,20 @@
   }
 
   .btn {
-    padding: 14px 10px;
+    padding: 12.8px 32px;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
+    box-shadow: 0 3px 12px 0 rgb(0 0 0 / 0%);
+    transition: all .2s ease-in-out;
+  }
+
+  .btn:hover {
+    box-shadow: 0 3px 12px 0 rgb(0 0 0 / 20%);
   }
   
   .btn-blue {
-    background-color: rgb(0, 103, 221);
+    background-color: #0078BE;
     color: #fff;
     font-weight: bold;
   }
