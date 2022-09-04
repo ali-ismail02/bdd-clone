@@ -789,12 +789,16 @@
   .community-words {
   text-align: center;
   width: 300px;
-}
+  }
 
-.community-item {
-  justify-content: center;
-  width: 300px;
-}
+  .community-item {
+    justify-content: center;
+    width: 300px;
+  }
+  .hero-heading {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+  }
 }
 
 
