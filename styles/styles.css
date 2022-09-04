@@ -179,7 +179,7 @@
     align-items: center;
     z-index: 1;
     background-image: url(../images/parallax-4.jpg);
-    background-position: 50% -167px;
+    background-position: 50%;
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -304,11 +304,85 @@
     margin: 0 10px;
   }
 
+  /* Trending */
+
+  .trend {
+    background-image: url(../images/bg-icon-empty.png);
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .trend-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trend-collection{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .trend-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 32px;
+    width: 17vw;
+    background-color: white;
+    width: 400px;
+    margin: 20px 20px;
+  }
+
+  .trend-item-img{
+    width: 100%;
+  }
+
+  .trend-title {
+    margin-bottom: 40px;
+    color: rgb(33, 33, 33);
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .trend-item-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 40px 10px 0px 10px;
+    padding-bottom: 40px;
+    text-align: left;
+    border-bottom: 1px solid rgba(33, 33, 33,0.5);
+  }
+
+  .trend-date{
+    font-size: 13;
+    line-height: 20px;
+    color: rgb(100, 100, 100);
+    text-align: left;
+    margin:20px 10px;
+    align-self: flex-start;
+  }
+
+  .trend-column > button {
+    margin-bottom: 40px;
+  }
+
   /* HUB */
 
   .hub {
     background-image: url(../images/parallax-light.jpg);
-    background-position: 50% 35px;
+    background-position: 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -370,6 +444,133 @@
     font-size: 15.2px;
     line-height: 19px;
   }
+
+  /* academy */
+
+  .academy{
+    background-image: url(../images/parallax-7.jpg);
+    background-position: 50%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .academy-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .academy-collection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .academy-item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 32px;
+    background-color: transparent;
+    width: 500px;
+    margin: 20px 20px;
+  }
+
+  .academy-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 32px;
+    background-color: transparent;
+    width: 250px;
+    margin: 20px 20px;
+  }
+
+  .academyImg-1{
+    display: flex;
+    width: 100%;
+  }
+
+  .academy-img{
+    height: 80px;
+  }
+
+  .academy-des{
+    color: white;
+    font-size: 18.4px;
+    line-height: 27.6px;
+    padding-top: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .academy-title{
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 16px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.academy-column > button {
+  margin-bottom: 40px;
+}
+
+/* community */
+
+.community{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.community-words {
+  margin: 30px 0;
+  color: rgb(33, 33, 33);
+  font-size: 32px;
+  line-height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: left;
+  width: 400px;
+  height: 200px;
+}
+
+.community-item {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.community-img{
+  width: 80px;
+  height: 80px;
+}
+
+.community-des{
+  margin-top: 15px;
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: left;
+}
 
   /* Footer */
 
@@ -579,6 +780,21 @@
   .vision > a{
     margin: 0px 5vw 40px 5vw;
   }
+  .trend-item{
+    width: 300px;
+  }
+  .academy-item1{
+    width: 300px;
+  }
+  .community-words {
+  text-align: center;
+  width: 300px;
+}
+
+.community-item {
+  justify-content: center;
+  width: 300px;
+}
 }
 
 
