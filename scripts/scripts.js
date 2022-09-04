@@ -25,27 +25,27 @@ dropdown2.addEventListener("click", function() {
 
 // hero image
 
-// const hero = document.getElementById("hero")
-// let i =1 ,j=1
+const hero = document.getElementById("hero")
+let i =1 ,j=1
 
-// function delay(milliseconds){
-//     return new Promise(resolve => {
-//         setTimeout(resolve, milliseconds);
-//     });
-// }
+function delay(milliseconds){
+    return new Promise(resolve => {
+        setTimeout(resolve, milliseconds);
+    });
+}
 
-// async function heroImage(){
-//     while(true){
-//         for(; i < 11 ; i++){
-//             hero.classList.replace("image" + j , "image" + (i+1))
-//             await delay(2000);
-//             console.log(j + " " +(i+1))
-//             j=i+1
-//         }
-//         j=11
-//         i=0
-//     }
-// }
+async function heroImage(){
+    while(true){
+        for(; i < 11 ; i++){
+            await delay(2000);
+            hero.classList.replace("image" + j , "image" + (i+1))
+            console.log(j + " " +(i+1))
+            j=i+1
+        }
+        j=11
+        i=0
+    }
+}
 
-// heroImage()
+heroImage()
 
