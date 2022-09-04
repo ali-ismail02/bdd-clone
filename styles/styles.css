@@ -177,7 +177,17 @@
     flex-direction: column;
     align-items: center;
     z-index: 1;
-    background: transparent;
+    background-image: url(../images/parallax-4.jpg);
+    background-position: 50% -167px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
   }
 
   .vision-title {
@@ -187,6 +197,7 @@
     line-height: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
+    text-align: center;
   }
 
   .vision > a {
@@ -290,6 +301,73 @@
   .store-col{
     width: 200px;
     margin: 0 10px;
+  }
+
+  /* HUB */
+
+  .hub {
+    background-image: url(../images/parallax-light.jpg);
+    background-position: 50% 35px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hub-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hub-title {
+    margin: 30px 0;
+    color: rgb(33, 33, 33);
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .hub-collection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hub-item{
+    margin-top: 1rem!important;
+    color: rgb(33, 33, 33);
+    font-weight: 700;
+    font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: center;
+    margin: 20px 30px;
+    width: 300px;
+    margin-bottom: 80px;
+  }
+
+  .hub-nb {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hub-item-des{
+    font-size: 15.2px;
+    line-height: 19px;
   }
 
   /* Footer */
@@ -467,6 +545,23 @@
     margin-top: 20px;
   }
 
+  .cyan {
+    color: rgb(0, 221, 155);
+  }
+
+  .blue {
+    
+    color: rgb(0, 133, 221);
+  }
+
+  .pink{
+    
+    color: rgb(214, 0, 221);
+  }
+
+  .green{
+    color: rgb(14, 110, 1);
+  }
 
   /* hero images */
   
