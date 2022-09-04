@@ -124,6 +124,7 @@
     line-height: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
+    text-align: center;
   }
 
   .foundation-collection {
@@ -192,7 +193,7 @@
 
   .vision-title {
     margin: 30px 0;
-    color: rgb(33, 33, 33);
+    color: white;
     font-size: 32px;
     line-height: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -381,24 +382,9 @@
   font-weight: bold;
 }
 
-#footer-div1{
+.footer-div{
   margin:0 2vw ;
-  flex-basis: 22%;
-}
-
-#footer-div2{
-  margin:0 2vw ;
-  flex-basis: 22%;
-}
-
-#footer-div3{
-  margin:0 2vw ;
-  flex-basis: 15%;
-}
-
-#footer-div4{
-  margin:0 2vw ;
-  flex-basis: 40%;
+  width: 200px;
 }
 
 .footer-title{
@@ -562,6 +548,39 @@
   .green{
     color: rgb(14, 110, 1);
   }
+
+  
+/* Media Query */
+
+@media only screen and (max-width: 800px) {
+  .mobile {
+    flex-direction: column;
+  }
+
+  .links{
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-heading {
+    width: 90vw;
+    line-height: 56px;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 20vh;
+    margin-bottom: 16vh;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .vision > a{
+    margin: 0px 5vw 40px 5vw;
+  }
+}
+
 
   /* hero images */
   
